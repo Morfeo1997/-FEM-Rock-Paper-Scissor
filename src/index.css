@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+@theme {
+
+    /* Primary */
+
+    --color-Scissors-Gradient-first: hsl(39, 89%, 49%);
+    --color-Scissors-Gradient-second: hsl(40, 84%, 53%);
+    --color-Paper-Gradient-first: hsl(230, 89%, 62%);
+    --color-Paper-Gradient-second: hsl(230, 89%, 65%);
+    --color-Rock-Gradient-first: hsl(349, 71%, 52%);
+    --color-Rock-Gradient-second: hsl(349, 70%, 56%);
+    --color-Lizard-Gradient-first: hsl(261, 73%, 60%);
+    --color-Lizard-Gradient-second: hsl(261, 72%, 63%);
+    --color-Spock-Gradient-first: hsl(189, 59%, 53%);
+    --color-Spock-Gradient-second: hsl(189, 58%, 57%);
+
+    /* Neutral */
+
+    --color-Dark-Text: hsl(229, 25%, 31%);
+    --color-Score-Text: hsl(229, 64%, 46%);
+    --color-Header-Outline: hsl(217, 16%, 45%);
+
+    /* Background */
+
+    --color-Radial-Gradient-first: hsl(214, 47%, 23%);
+    --color-Radial-Gradient-second: hsl(237, 49%, 15%);
+
+}
