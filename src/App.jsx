@@ -1,12 +1,24 @@
-import { useState } from 'react'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import Home from './Pages/Home'
+import Normal from './Pages/Normal'
+import Hard from './Pages/Hard'
+
 
 
 function App() {
-  const [count, setCount] = useState(0)
+
 
   return (
     <>
-      
+      <Router>
+        <div className="min-h-screen bg-gradient-to-br from-blue-900 via-purple-900 to-indigo-900">
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/normal" element={<Normal />} />
+            <Route path="/hard" element={<Hard />} />
+          </Routes>
+        </div>
+      </Router>
     </>
   )
 }
