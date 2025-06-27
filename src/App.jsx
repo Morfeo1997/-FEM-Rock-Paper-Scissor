@@ -11,13 +11,17 @@ function App() {
   return (
     <>
       <Router>
-        <div className="min-h-screen bg-gradient-to-br from-blue-900 via-purple-900 to-indigo-900">
+        <div className="min-h-screen ">
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/normal" element={<Normal />} />
             <Route path="/hard" element={<Hard />} />
+
           </Routes>
+          
         </div>
+        
+        
       </Router>
     </>
   )

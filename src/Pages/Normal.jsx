@@ -54,7 +54,7 @@ const [score, setScore] = useState(0)
     if (gameResult === 'win') {
       setScore(prevScore => prevScore + 1)
     } else if (gameResult === 'lose') {
-      setScore(prevScore => Math.max(0, prevScore - 1)) // No permitir puntajes negativos
+      setScore(prevScore => Math.max(0, prevScore - 1)) 
     }
   }
 
@@ -148,7 +148,7 @@ const [score, setScore] = useState(0)
 
             {/* Resultado del juego - Mobile */}
             <div className="mb-8">
-              <h2 className={`text-3xl font-bold ${getResultColor()} text-center`}>
+              <h2 className={`text-3xl font-bold text-white text-center`}>
                 {getResultMessage()}
               </h2>
             </div>
@@ -168,8 +168,8 @@ const [score, setScore] = useState(0)
         {/* Botón Back to Menu */}
         <div className="mt-4">
           <Link to="/">
-            <button className="bg-white/20 backdrop-blur-sm text-white px-8 py-4 rounded-xl font-bold text-lg hover:bg-white/30 transform transition-all duration-200 border border-white/30">
-              Back to Menu
+            <button className="bg-white cursor-pointer text-Dark-Text px-12 py-4 rounded-xl font-medium text-lg hover:scale-105 transform transition-all duration-200 shadow-lg">
+              BACK TO MENU
             </button>
           </Link>
         </div>
@@ -184,16 +184,16 @@ const [score, setScore] = useState(0)
       <Header score={score} />
 
       {/* Contenedor de opciones de juego */}
-      <div className="flex flex-col items-center space-y-8">
+      <div className="flex flex-col items-center space-y-8 bg-[url('./assets/Images/bg.triangle.svg')] bg-contain bg-no-repeat bg-center">
         {/* Primer div - Paper y Scissors */}
-        <div className="flex space-x-8">
+        <div className="flex space-x-8 ">
           {/* Paper */}
           <div 
             onClick={() => handlePlayerChoice(choices[1])}
             className="bg-white border-16 border-Paper-Gradient-first rounded-full p-10 shadow-lg cursor-pointer hover:border-Paper-Gradient-second hover:scale-105 transform transition-all duration-300"
           >
             <div >
-                <img src={Paper} alt="Paper Image" className='w-full h-full' />
+                <img src={Paper} alt="Paper option" className='w-full h-full' />
             </div>
           </div>
           
@@ -203,7 +203,7 @@ const [score, setScore] = useState(0)
             className="bg-white border-16 border-Scissors-Gradient-first rounded-full p-10 shadow-lg cursor-pointer hover:border-Scissors-Gradient-second hover:scale-105 transform transition-all duration-300"
           >
             <div>
-                <img src={Scissors} alt="" />
+                <img src={Scissors} alt="Scissors option" />
             </div>
           </div>
         </div>

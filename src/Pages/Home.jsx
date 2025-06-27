@@ -8,7 +8,6 @@ function Home() {
         <h1 className="text-6xl md:text-8xl font-bold text-white mb-4 tracking-wide">
           Rock Paper Scissor
         </h1>
-        <div className="w-32 h-1 bg-gradient-to-r from-yellow-400 to-orange-500 mx-auto rounded-full"></div>
       </header>
 
       {/* Game Mode Buttons */}
@@ -32,6 +31,11 @@ function Home() {
       <div className="mt-16 text-center">
         <p className="text-white/70 text-lg">Choose your difficulty level</p>
       </div>
+
+      <footer className='flex flex-col justify-center text-center mt-12 text-white '>
+          		<p>Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" className='text-Paper-Gradient-first hover:text-Rock-Gradient-second font-bold transition-colors duration-500'>Frontend Mentor</a>.</p>
+          		<p>Coded by <a href="https://gaston-gomez1997.netlify.app/" target='_blank' className='text-Paper-Gradient-first hover:text-Rock-Gradient-second font-bold transition-colors duration-500'> Gastón Gómez</a></p>
+      </footer>
 
       
     </div>
