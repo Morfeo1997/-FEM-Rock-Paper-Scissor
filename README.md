@@ -1,12 +1,37 @@
-# React + Vite
+# Frontendmentor Challenge - Rock Paper Scissors
+The challenge is to create an app that can work as a rock paper scissors game, the difficulty was to choose but personally I wanted to make it in both difficulties to have more challenge.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Technologies
+- HTML
+- CSS
+- Javascript
+- React
+- Tailwindcss
 
-Currently, two official plugins are available:
+## Screenshots
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+  <div>
+      <p> Mobile - Normal Game</p>
+      <img src="./src/screenshots/FM-Mobile-Normal-Game.jpg">
+      <p> Mobile - Hard Game</p>
+      <img src="./src/screenshots/FM-Mobile-Hard-Game.jpg">
+  </div>
 
-## Expanding the ESLint configuration
+  <div>
+      <p> Desktop - Normal Game</p>
+      <img src="./src/screenshots/FM-Desktop-Normal-Game.jpg">
+      <p> Desktop - Hard Game</p>
+      <img src="./src/screenshots/FM-Desktop-Hard-Game.jpg">
+  </div>
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+## Characteristics
+- Two selectable difficulty levels
+- Button to read the rules and regulations
+- Game in perfect working order
+- Scoreboard
+- Button to go back and choose another difficulty
+
+## Links
+- Frontendmentor (https://www.frontendmentor.io)
+- My portfolio (https://gaston-gomez1997.netlify.app/)
